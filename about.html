@@ -6,6 +6,12 @@
     <title>foto do criador</title>
     <style>
         body{
+            background-color: black;
+            background-image: url('imagem/images.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
             margin: 0px;
         }
         header{
@@ -13,6 +19,7 @@
     color: white;
     text-align: center;
     text-shadow: 0px 0px 6px black;
+    
 }
 header > h1{
     margin: 0px;
@@ -20,18 +27,11 @@ header > h1{
     font-family: serif;
     font-size: 25px;
 }
-        picture{
-            background-color: black; 
-            text-align: center;
-            display: block;
-            border: 1px solid black;
-            margin-top: 5px;
-            
-           
-        }
+        
         nav{
             background-color: red;
             padding-bottom: 5px;
+            box-shadow: 0px 7px 6px #00000063;
         }
         nav > a{
             padding: 5px;
@@ -41,20 +41,60 @@ header > h1{
             font-weight: bold;
             
         }
+        img{
+            border: 2px solid black;
+            width:300px ;
+            height:450px ;
+            margin: auto;
+            display: inline;
+            margin-top: 5px;
+            box-shadow: 0px 0px 4px black;
+            background-color: black;
+    
+        }
+        main{
+            display: block;
+            text-align: center;
+            
+        }
+        
+        
     </style>
 </head>
 <body>
      <header>
-         <h1>foto do criador do site</h1>
+         <h1>fotos do criador do site</h1>
      </header>
      <nav>
         <a href="index.html">◀️ voltar</a>
     </nav>
     <main>
-        <picture>
-            <source media="(max-width:800px)" srcset="imagem/eu.jpg" width='100%'>
-            <img src="imagem/eu.jpg" alt="imagem do criador do site, wellington Lacerda" width="60%">
-        </picture>
+            <picture>
+                <source media="(max-width:767px)" srcset="imagem/eu.jpg" >  
+                    <a href="imagem/eu.jpg" >  
+            <img src="imagem/eu.jpg" alt="imagem da galeria do criador" >
+            </a>
+            </picture>     
+            <a href="imagem/eu2.jpg">   
+            <img src="imagem/eu2.jpg" alt="imagem da galeria do criador" >
+           </a>
+           <a href="imagem/eu3.jpg">
+            <img src="imagem/eu3.jpg" alt="imagem da galeria do criador" >
+            </a>
+            <a href="imagem/eu4.jpg">
+            <img src="imagem/eu4.jpg" alt="imagem da galeria do criador" >
+            </a>
+            <a href="imagem/eu5.jpg">
+            <img src="imagem/eu5.jpg" alt="imagem da galeria do criador" >
+            </a>
+            <a href="imagem/eu6.jpg">
+            <img src="imagem/eu6.jpg" alt="imagem da galeria do criador" >
+            </a>
+            <a href="imagem/eu7.jpg">
+            <img src="imagem/eu7.jpg" alt="imagem da galeria do criador" >
+            </a>
+            
+        
        
     </main>
     
